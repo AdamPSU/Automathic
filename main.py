@@ -13,5 +13,18 @@ def integer_multiples(n, m):
         hashset.add(i*m)
     return sorted(list(hashset)) 
 
+def square_numbers(n): 
+    hashset = set() 
+    for i in range(n): 
+        hashset.add(i**2)
+    return sorted(list(hashset))
+
+print(square_numbers(4)) 
+
+
+
+
+
+
 
 
